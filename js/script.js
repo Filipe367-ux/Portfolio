@@ -30,7 +30,7 @@ ${mensagem}
     // Cria o link mailto
     const assunto = encodeURIComponent("Contato via Portfólio - " + nome);
     const corpoCodificado = encodeURIComponent(corpoEmail);
-    const destino = "filipovesrd@gmail.com"; // Seu e-mail
+    const destino = "filipefialhocosta@gmail.com"; // Seu e-mail
 
     // Abre o cliente de e-mail
     window.location.href = `mailto:${destino}?subject=${assunto}&body=${corpoCodificado}`;
